@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dot Website with ASCII Art</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: monospace;
+            background-image: radial-gradient(#000 1px, transparent 1px);
+            background-size: 10px 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow-x: hidden; /* This hides horizontal overflow */
+            overflow-y: hidden; /* This hides horizontal overflow */
+        }
+        .ascii-art, .ascii-art3, .message-box {
+            position: absolute;
+            font-size: 0.8vw;
+            white-space: pre;
+            line-height: 1;
+        }
+        .ascii-art {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+        .ascii-art2 {
+            position: absolute;
+            top: 50%;
+            left: 60%;
+        }
+        .ascii-art3 {
+            position: absolute;
+            top: 70%;
+            left: -10px;
+        }
+        .message-box {
+            font-size: 1em;
+            color: #000;
+        }
+        .highlight {
+            display: inline-block;
+            background-color: #fff;
+            color: #000;
+            margin: 2px 0;
+        }
+        .blue {
+            color: blue;
+        }
+        .title {
+            margin-bottom: 6px;
+        }
+    </style>
+</head>
+<body>
+    <pre class="ascii-art">
+                                   #*&..&...*...*
+                                    ,@@, /.*....../.@@(&#,/./(...*&.%@
+                                    .. ..  .*%/ ..  .. %  .. * . ,. %..,,&%
+                                      %,.@. .@.  ... ,/. .  ( *, & %.. .....(
+                                    ,@ ( ..(&/..(.......&......&,// //*.*,@(**@
+                                    @* .*.#..............//..(,(//@&&%%&(#(   *. @
+                                @. ((,..,//.......,,,,*,***/(/#,//@/((#(*&.,.@,*%,&@
+                              .#..(..........,,,#,**#*////&//#((((((((%&%((&@#@#&&#*
+                             ,.#..#.....,,,&*****//&&.. %#(////(@#*
+                           ...../.,,#,,&#**(/(&(&.  *.&((/##/#&@%%&&
+                          /.,*..,,,,,***/*/(#((      &/##    (#@#///#
+                         .*.,,,,,,*//(//@(/( . ..%.            #(#@((
+                        .(.,.,,%@@//*((&%. . *(.                 #&(%
+                        (.%,%%%#//*##        **.                    %#
+                        (./,#/(/#&
+                        .,,/&%(%
+                       @(#(((%,
+                       ,/(((#
+                       (/##
+                    *@&&&&*%((#
+                 &*/%**#&/%(*/%@*#
+    </pre>
+    <pre class="ascii-art2">
+                                                           ./,,*%&
+                                                          &,,*#%%
+                                        .,,****,..  . .@(,,*/%%#
+                                ,/(#%&@&&%(#*(%&&&&%,&&%/*(%@&&&
+                            ,/#%&&#%%%##/****,,,,,,,,,**%%&&/%.,%,
+                        *%@@&&&%##(**,,,...........( (#(*((%%&@#* 
+                       %%@@&&%##(**,,,.........%/./##########(*&%%&& *
+                     #@@&%*%##(/*,,,,...,,,,#*///**,,,/,**/(#%&&&&#&&#*
+                    @@&&%&%##(/**,,,.,,*//#**,,,,,,,/*,,,,,***//(###%,%,
+                   @@&&&%##((///**(@%#//*,,,,,,,,,,,,,,,,,,,,,,****((#&@,
+                  &@&%&%#(((//#/((((/*,,,,,*****//%***,,,,,,,,,,,**//(%%&/
+                  @&&&###(###/,........,*//(#%%*,*/(&//****,,,,,*,,**/(#%% 
+                  @&%#%&%/*%.,,********(((######@&,,&%#%%///****,,,****(%%# 
+                 ,&&%/,/*..,*/(#/ &&&%.         ***@&.,#(#%%/////****///#/#
+                @&#*.* ..**   %%%&&%%%                  @%..*/%%//////*(((%(
+               &%#,/(.        %#####(                         &@*%#(*(((##(%  
+              @,,.,(           #(((/*                          @ .*(####%#%/
+                               ***                                 *#%%//%%
+                                                                   %%%%&&(
+                                                                  /(%%&@
+                                                              @&%%%#%&%&&&*
+                                                        (//////////(((%%%%%%@(
+                                                      **.......%,*//#.#(((((((##
+                                                                            .(*//////%
+                                                                                    **#
+    </pre>
+    <pre class="ascii-art3">                          
+                                                                               
+                                            (###%/                              
+                                         ######%                                
+                                #################                               
+                         ###########%%%################                         
+                   .######################(((##(((((((((###                     
+               ##((((((((((((###########((((((((((((((((((((##                  
+            ####(/ *///(((((##########(((((((((((((((((((((((((#                
+           ##((///(@@(((*******(#####(((((((///////////////////(((               
+          ##(//(((%/*/((((((((((##((((/////                  ///(((****             
+       **(((&(((((((((/////(#(/(((((((                           ********//((,           
+    *****/*              ###(((((((((((((                      
+                                  /(((((/                      
+                                     *****                                       
+                                        **%                                       
+    </pre>
+    <pre class="message-box">
+        ***************************************************************************
+        * $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*
+        * $ ------------------------------------------------------------------- $ *
+        * $ |                                                                 | $ *
+        * $ |  <span class="highlight title blue"><a class="blue" href="https://github.com/DeepAI-Research" target="_blank">DeepAI Research</a></span>                                                | $ *
+        * $ |                                                                 | $ *
+        * $ |  <span class="highlight">An AI research lab focused on creating simulation software</span>     | $ *
+        * $ |  <span class="highlight">and training pipelines for multimodal generative models.</span>       | $ *
+        * $ |  <span class="highlight">Currently focusing on improving spatial understanding</span>          | $ *
+        * $ |  <span class="highlight">and motion in video gen models.</span>                                | $ *
+        * $ |                                                                 | $ *
+        * $ |                                                                 | $ *
+        * $ |  <span class="highlight">Current projects:</span>                                              | $ *
+        * $ |                                                                 | $ *
+        * $ |  <span class="highlight title blue"><a class="blue" href="https://github.com/DeepAI-Research/Simverse" target="_blank">Simverse (prev named Simian)</a></span>                                   | $ *
+        * $ |  <span class="highlight">Simverse is a synthetic video & image generator with</span>           | $ *
+        * $ |  <span class="highlight">auto-captioning. Simverse allows users to place objects</span>        | $ *
+        * $ |  <span class="highlight">in scenes, add movement, auto-caption, and prompt it to</span>        | $ *
+        * $ |  <span class="highlight">generate videos according to specific requirements.</span>            | $ *
+        * $ |  <span class="highlight">Enables the creation of high-quality training datasets</span>         | $ *
+        * $ |  <span class="highlight">for a wide range of computer vision and NLP tasks.</span>             | $ *
+        * $ |                                                                 | $ *
+        * $ |  <span class="highlight">Simverse & SimData3D dataset paper + release date late 07/2024</span> | $ *
+        * $ |                                                                 | $ *
+        * $ |  <span class="highlight title blue"><a class="blue" href="https://github.com/DeepAI-Research/distributaur" target="_blank">Distributaur</a></span>                                                   | $ *
+        * $ |  <span class="highlight">Distributaur is a simple way to run distributed jobs,</span>          | $ *
+        * $ |  <span class="highlight">leveraging low-cost hardware from Vast.ai's marketplace.</span>       | $ *
+        * $ |  <span class="highlight">Get your synthetic data, rendering or data processing jobs</span>     | $ *
+        * $ |  <span class="highlight">done cheap and at scale. Deliver final results to</span>              | $ *
+        * $ |  <span class="highlight">Huggingface with one line of code.</span>                             | $ *
+        * $ |                                                                 | $ *
+        * $ |  <span class="highlight">If any of the research topics interest you reach out to</span>        | $ *
+        * $ |  <span class="highlight">eric [at] deepai.org</span>                                           | $ *
+        * $ |                                                                 | $ *
+        * $ |  <span class="highlight">Find us at <a class="blue" href="https://huggingface.co/DeepAIResearch" target="_blank" class="blue">HuggingFace</a> / <a href="https://discord.gg/sz6MRfQggc" target="_blank" class="blue">Discord</a></span>                               | $ *
+        * $ |                                                                 | $ *
+        * $ |  <span class="highlight">A <a href="https://deepai.org/" target="_blank" class="blue">DeepAI</a> Research Group</span>                                        | $ *
+        * $ |                                                                 | $ *
+        * $ ------------------------------------------------------------------- $ *
+        * $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*
+        ***************************************************************************
+    </pre>
+</body>
+</html>
+
